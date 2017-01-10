@@ -1,0 +1,32 @@
+{
+	"questions": [{
+		"question1": "A magnet is placed at position A.Click and drag any bar to the empty space(B) near it.Click 'Animate' to observe the effect and 'Flip' to rotate the bar by 180 degrees.Click 'Question' to answer the question and then 'Submit' to access your answer.Click 'Refresh' to select another bar."
+	}],
+	"images": [{
+		"img":"images/img.png",
+		"name":"magnets",
+		"title":"bar 1 is"
+	},
+		{
+			"img":"images/img1.png",
+			"name":"megnetic substance",
+			"title":"bar 2 is"
+		},
+		{
+			"img":"images/img2.png",
+			"name":"non magnets",
+			"title":"bar 3 is"
+		}
+	],
+	"images1":[{
+		"img":"images/img3.png"
+		}],
+		"quiz":[{
+			"tag":"Read the Question and Select the correct option",
+			"que":"A body 'A'gets attracted towards a magnet when brought near it. Then 'A' is a",
+			"title1":"magnet",
+			"title2":"non magnet",
+			"title3":"magnet or a magnetic substance",
+			"title4":"magnetic substance"
+			}]
+}

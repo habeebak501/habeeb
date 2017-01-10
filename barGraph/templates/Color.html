@@ -1,0 +1,119 @@
+<div class="main">
+    <img class="img" ng-repeat="x in Array" ng-drag="true" ng-src="{{x.img}}" ng-drag-data="x" data-allow-transform="true">
+</div>
+<div class="shapeClass">
+    <div class="shapeps-main">
+        <div class="lftshapes">
+            <div class="shapeimg">
+                <div class="color">
+                </div>
+            </div>
+            <div class="drag" style="float:left;" ng-drop="true" ng-drop-success="onDropComplete1($data,$event)">
+                <div ng-repeat="obj in droppedObjects1" class="column">
+                    <img class="img4" ng-src="{{obj.img}}" ng-drop="true"></img>
+                </div>
+            </div>
+        </div>
+
+        <div class="div">
+            <div class="one">
+                <div class="color">
+                </div>
+            </div>
+            <div class="value-block">
+                <div class="two">
+                    <canvas id="mycanvas"></canvas>
+                </div>
+                <div class="three">
+                    <p id="num">{{count}}</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="shapeps-main">
+            <div class="lftshapes">
+                <div class="shapeimg">
+                    <div class="color1">
+                    </div>
+                </div>
+                <div class="drag" style="float:left;" ng-drop="true" ng-drop-success="onDropComplete2($data,$event)">
+                    <div ng-repeat="obj in droppedObjects2" class="column">
+                        <img class="img4" ng-src="{{obj.img}}" ng-drop="true"></img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div">
+                <div class="one">
+                    <div class="color1">
+                    </div>
+                </div>
+                <div class="value-block">
+                    <div class="two">
+                        <canvas id="mycanvas1"></canvas>
+                    </div>
+                    <div class="three">
+                        <p id="num">{{count1}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shapeps-main">
+            <div class="lftshapes">
+                <div class="shapeimg">
+                    <div class="color2">
+                    </div>
+                </div>
+                <div class="drag" style="float:left;" ng-drop="true" ng-drop-success="onDropComplete3($data,$event)">
+                    <div ng-repeat="obj in droppedObjects3" class="column">
+                        <img class="img4" ng-src="{{obj.img}}" ng-drop="true"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="one">
+                    <div class="color2">
+                    </div>
+                </div>
+                <div class="value-block">
+                    <div class="two">
+                        <canvas id="mycanvas2"></canvas>
+                    </div>
+                    <div class="three">
+                        <p id="num">{{count2}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shapeps-main">
+            <div class="lftshapes">
+                <div class="shapeimg">
+                    <div class="color3">
+                    </div>
+                </div>
+                <div class="drag" style="float:left;" ng-drop="true" ng-drop-success="onDropComplete4($data,$event)">
+                    <div ng-repeat="obj in droppedObjects4" class="column">
+                        <img class="img4" ng-src="{{obj.img}}" ng-drop="true"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="one">
+                    <div class="color3">
+                    </div>
+                </div>
+                <div class="value-block">
+                    <div class="two">
+                        <canvas id="mycanvas3"></canvas>
+                    </div>
+                    <div class="three">
+                        <p id="num">{{count3}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>

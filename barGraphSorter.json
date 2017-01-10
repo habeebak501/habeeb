@@ -1,0 +1,96 @@
+{
+"shape":[{
+    "id": 1,
+    "name": "add"
+}, {
+    "id": 2,
+    "name": "stop"
+}, {
+    "id": 3,
+    "name": "network_cell"
+}, {
+    "id": 4,
+    "name": "play_arrow"
+}, {
+    "id": 5,
+    "name": "arrow_upward"
+}, {
+    "id": 6,
+    "name": "casino"
+}, {
+    "id": 7,
+    "name": "visibility"
+}, {
+    "id": 8,
+    "name": "network_wifi"
+  },{
+    "id": 9,
+    "name": "favorite"
+}, {
+    "id": 10,
+    "name": "grade"
+}, {
+    "id": 11,
+    "name": "arrow_back"
+}, {
+    "id": 12,
+    "name": "check"
+}, {
+    "id": 13,
+    "name": "close"
+}, {
+    "id": 14,
+    "name": "mode_edit"
+}, {
+    "id": 15,
+    "name": "remove"
+  },{
+    "id": 16,
+    "name": "brightness_1"
+  },{
+    "id": 17,
+    "name": "brightness_3"
+  },{
+    "id": 18,
+    "name": "arrow_downward"
+  },{
+    "id": 19,
+    "name": "arrow_forward"
+  },{
+    "id":20,
+    "name": "wb_sunny"
+}],
+"color" : [{
+    "id": 1,
+    "name": "stop"
+
+}, {
+    "id": 2,
+    "name": "stop"
+}, {
+    "id": 3,
+    "name": "stop"
+}, {
+    "id": 4,
+    "name": "stop"
+}, {
+    "id": 5,
+    "name": "stop"
+}, {
+    "id": 6,
+    "name": "stop"
+}, {
+    "id": 7,
+    "name": "stop"
+
+}, {
+    "id": 8,
+    "name": "stop"
+}, {
+    "id": 9,
+    "name": "stop"
+}, {
+    "id": 10,
+    "name": "stop"
+}]
+}

@@ -1,0 +1,3906 @@
+{
+  "atoms": [
+    {
+      "atomicNumber": 1,
+      "color": "a1ffc3",
+      "symbol": "H",
+      "name": "Hydrogen",
+      "group": 1,
+      "period": 1,
+      "weight": 1.008,
+      "electronicConfiguration": "1s1",
+      "meltingPoint": -259,
+      "boilingPoint": -253,
+      "density": 0.09,
+      "earthCrust": 0.14,
+      "discovery": 1776,
+      "ionizationEnergy": 13.5984,
+      "electronicConfiguration2": "1s:&#65514;",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 1
+      }
+    ],
+    "2": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 2,
+      "color": "c0ffff",
+      "symbol": "He",
+      "name": "Helium",
+      "group": 18,
+      "period": 1,
+      "weight": 4.002,
+      "electronicConfiguration": "1s2",
+      "meltingPoint": -272,
+      "boilingPoint": -269,
+      "density": 0.18,
+      "earthCrust": "------",
+      "discovery": 1895,
+      "ionizationEnergy": 24.5874,
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 3,
+      "color": "ff6666",
+      "symbol": "Li",
+      "name": "Lithium",
+      "group": 1,
+      "period": 2,
+      "weight": 6.94,
+      "electronicConfiguration": "1s2,2s1",
+      "meltingPoint": 180,
+      "boilingPoint": 1347,
+      "density": 0.53,
+      "earthCrust": "------",
+      "discovery": 1817,
+      "ionizationEnergy": 5.3917,
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 1
+      },
+      {
+        "p": " "
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 4,
+      "color": "ffdead",
+      "symbol": "Be",
+      "name": "Beryllium",
+      "group": 2,
+      "period": 2,
+      "weight": 9.012,
+      "electronicConfiguration": "1s2,2s2",
+      "meltingPoint": 1278,
+      "boilingPoint": 2970,
+      "density": 1.85,
+      "earthCrust": "------",
+      "discovery": 1797,
+      "ionizationEnergy": 9.3227,
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": " "
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 5,
+      "color": "cccc99",
+      "symbol": "B",
+      "name": "Boron",
+      "group": 13,
+      "period": 2,
+      "weight": 10.81,
+      "electronicConfiguration": "1s2,2s2,2p1",
+      "meltingPoint": "2300",
+      "boilingPoint": "2550",
+      "density": "2.34",
+      "earthCrust": "------",
+      "discovery": "1808",
+      "ionizationEnergy": "8.298",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 1
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 6,
+      "color": "a1ffc3",
+      "symbol": "C",
+      "name": "Carbon",
+      "group": 14,
+      "period": 2,
+      "weight": 12.011,
+      "electronicConfiguration": "1s2,2s2,2p2",
+      "meltingPoint": "3500",
+      "boilingPoint": "4827",
+      "density": "2.26",
+      "earthCrust": "0.094",
+      "discovery": "ancient",
+      "ionizationEnergy": "11.2603",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 2
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 7,
+      "color": "a1ffc3",
+      "symbol": "N",
+      "name": "Nitrogen",
+      "group": 15,
+      "period": 2,
+      "weight": 14.007,
+      "electronicConfiguration": "1s2,2s2,2p3",
+      "meltingPoint": "-210",
+      "boilingPoint": "-196",
+      "density": "1.25",
+      "earthCrust": "------",
+      "discovery": "1772",
+      "ionizationEnergy": "14.5341",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 3
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 8,
+      "color": "a1ffc3",
+      "symbol": "O",
+      "name": "Oxygen",
+      "group": 16,
+      "period": 2,
+      "weight": 15.999,
+      "electronicConfiguration": "1s2,2s2,2p4",
+      "meltingPoint": "-218",
+      "boilingPoint": "-183",
+      "density": "1.43",
+      "earthCrust": "46.71",
+      "discovery": "1774",
+      "ionizationEnergy": "13.6181",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 4
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 9,
+      "color": "e7ff8f",
+      "symbol": "F",
+      "name": "Fluorine",
+      "group": 17,
+      "period": 2,
+      "weight": 18.998,
+      "electronicConfiguration": "1s2,2s2,2p5",
+      "meltingPoint": "-220",
+      "boilingPoint": "-188",
+      "density": "1.7",
+      "earthCrust": "0.029",
+      "discovery": "1886",
+      "ionizationEnergy": "17.4228",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 5
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 10,
+      "color": "c0ffff",
+      "symbol": "Ne",
+      "name": "Neon",
+      "group": 18,
+      "period": 2,
+      "weight": 20.179,
+      "electronicConfiguration": "1s2,2s2,2p6",
+      "meltingPoint": "-249",
+      "boilingPoint": "-246",
+      "density": "0.9",
+      "earthCrust": "------",
+      "discovery": "1898",
+      "ionizationEnergy": "21.5645",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 11,
+      "color": "ff6666",
+      "symbol": "Na",
+      "name": "Sodium",
+      "group": 1,
+      "period": 3,
+      "weight": 22.989,
+      "electronicConfiguration": "1s2,2s2,2p6,3s1",
+      "meltingPoint": "98",
+      "boilingPoint": "883",
+      "density": "0.97",
+      "earthCrust": "2.75",
+      "discovery": "1807",
+      "ionizationEnergy": "5.1391",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 1
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 12,
+      "color": "ffdead",
+      "symbol": "Mg",
+      "name": "Magnesium",
+      "group": 2,
+      "period": 3,
+      "weight": 24.305,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2",
+      "meltingPoint": "639",
+      "boilingPoint": "1090",
+      "density": "1.74",
+      "earthCrust": "2.08",
+      "discovery": "1755",
+      "ionizationEnergy": "7.6462",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 13,
+      "color": "cccccc",
+      "symbol": "Al",
+      "name": "Aluminium",
+      "group": 13,
+      "period": 3,
+      "weight": 26.981,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p1",
+      "meltingPoint": "660",
+      "boilingPoint": "2467",
+      "density": "2.7",
+      "earthCrust": "8.07",
+      "discovery": "1825",
+      "ionizationEnergy": "5.9858",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 1
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 14,
+      "color": "cccc99",
+      "symbol": "Si",
+      "name": "Silicon",
+      "group": 14,
+      "period": 3,
+      "weight": 28.085,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p2",
+      "meltingPoint": "1410",
+      "boilingPoint": "2355",
+      "density": "2.33",
+      "earthCrust": "27.69",
+      "discovery": "1824",
+      "ionizationEnergy": "8.1517",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 2
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 15,
+      "color": "a1ffc3",
+      "symbol": "P",
+      "name": "Phosphorus",
+      "group": 15,
+      "period": 3,
+      "weight": 30.973,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p3",
+      "meltingPoint": "44",
+      "boilingPoint": "280",
+      "density": "1.82",
+      "earthCrust": "0.13",
+      "discovery": "1669",
+      "ionizationEnergy": "10.4867",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 3
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 16,
+      "color": "a1ffc3",
+      "symbol": "S",
+      "name": "Sulfur",
+      "group": 16,
+      "period": 3,
+      "weight": 32.06,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p4",
+      "meltingPoint": "113",
+      "boilingPoint": "445",
+      "density": "2.07",
+      "earthCrust": "0.052",
+      "discovery": "ancient",
+      "ionizationEnergy": "10.36",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 4
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 17,
+      "color": "e7ff8f",
+      "symbol": "Cl",
+      "name": "Chlorine",
+      "group": 17,
+      "period": 3,
+      "weight": 35.45,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p5",
+      "meltingPoint": "-101",
+      "boilingPoint": "-35",
+      "density": "3.21",
+      "earthCrust": "0.045",
+      "discovery": "1774",
+      "ionizationEnergy": "12.9676",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 5
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 18,
+      "color": "c0ffff",
+      "symbol": "Ar",
+      "name": "Argon",
+      "group": 18,
+      "period": 3,
+      "weight": 39.948,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6",
+      "meltingPoint": "-189",
+      "boilingPoint": "-186",
+      "density": "1.78",
+      "earthCrust": "------",
+      "discovery": "1894",
+      "ionizationEnergy": "15.7596",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 19,
+      "color": "ff6666",
+      "symbol": "K",
+      "name": "Potassium",
+      "group": 1,
+      "period": 4,
+      "weight": 39.098,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s1",
+      "meltingPoint": "64",
+      "boilingPoint": "774",
+      "density": "0.86",
+      "earthCrust": "2.58",
+      "discovery": "1807",
+      "ionizationEnergy": "4.3407",
+      "electronsArray": [
+  {
+    "1": [
+      {
+        "s": 2
+      }
+    ],
+    "2": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      }
+    ],
+    "3": [
+      {
+        "s": 2
+      },
+      {
+        "p": 6
+      },
+      {
+        "d": " "
+      }
+    ],
+    "4": [
+      {
+        "s": 1
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "5": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      },
+      {
+        "f": " "
+      }
+    ],
+    "6": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      },
+      {
+        "d": " "
+      }
+    ],
+    "7": [
+      {
+        "s": " "
+      },
+      {
+        "p": " "
+      }
+    ]
+  }
+]
+    },
+    {
+      "atomicNumber": 20,
+      "color": "ffdead",
+      "symbol": "Ca",
+      "name": "Calcium",
+      "group": 2,
+      "period": 4,
+      "weight": 40.078,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2",
+      "meltingPoint": "839",
+      "boilingPoint": "1484",
+      "density": "1.55",
+      "earthCrust": "3.65",
+      "discovery": "1808",
+      "ionizationEnergy": "6.1132",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 21,
+      "color": "ffc0c0",
+      "symbol": "Sc",
+      "name": "Scandium",
+      "group": 3,
+      "period": 4,
+      "weight": 44.955,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d1,4s2",
+      "meltingPoint": "1539",
+      "boilingPoint": "2832",
+      "density": "2.99",
+      "earthCrust": "------",
+      "discovery": "1879",
+      "ionizationEnergy": "6.5615",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 1
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 22,
+      "color": "ffc0c0",
+      "symbol": "Ti",
+      "name": "Titanium",
+      "group": 4,
+      "period": 4,
+      "weight": 47.867,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d2,4s2",
+      "meltingPoint": "1660",
+      "boilingPoint": "3287",
+      "density": "4.54",
+      "earthCrust": "0.62",
+      "discovery": "1791",
+      "ionizationEnergy": "6.8281",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 2
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 23,
+      "color": "ffc0c0",
+      "symbol": "V",
+      "name": "Vanadium",
+      "group": 5,
+      "period": 4,
+      "weight": 50.941,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d3,4s2",
+      "meltingPoint": "1890",
+      "boilingPoint": "3380",
+      "density": "6.11",
+      "earthCrust": "------",
+      "discovery": "1830",
+      "ionizationEnergy": "6.7462",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 3
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 24,
+      "color": "ffc0c0",
+      "symbol": "Cr",
+      "name": "Chromium",
+      "group": 6,
+      "period": 4,
+      "weight": 51.996,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d5,4s1",
+      "meltingPoint": "1857",
+      "boilingPoint": "2672",
+      "density": "7.19",
+      "earthCrust": "0.035",
+      "discovery": "1797",
+      "ionizationEnergy": "6.7665",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 5
+        },
+        {
+          "id": "4s",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "atomicNumber": 25,
+      "color": "ffc0c0",
+      "symbol": "Mn",
+      "name": "Manganese",
+      "group": 7,
+      "period": 4,
+      "weight": 54.938,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d5,4s2",
+      "meltingPoint": "1245",
+      "boilingPoint": "1962",
+      "density": "7.43",
+      "earthCrust": "0.09",
+      "discovery": "1774",
+      "ionizationEnergy": "7.434",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 5
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 26,
+      "color": "ffc0c0",
+      "symbol": "Fe",
+      "name": "Iron",
+      "group": 8,
+      "period": 4,
+      "weight": 55.845,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d6,4s2",
+      "meltingPoint": "1535",
+      "boilingPoint": "2750",
+      "density": "7.87",
+      "earthCrust": "5.05",
+      "discovery": "ancient",
+      "ionizationEnergy": "7.9024",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 6
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 27,
+      "color": "ffc0c0",
+      "symbol": "Co",
+      "name": "Cobalt",
+      "group": 9,
+      "period": 4,
+      "weight": 58.933,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d7,4s2",
+      "meltingPoint": "1495",
+      "boilingPoint": "2870",
+      "density": "8.9",
+      "earthCrust": "------",
+      "discovery": "1735",
+      "ionizationEnergy": "7.881",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 7
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 28,
+      "color": "ffc0c0",
+      "symbol": "Ni",
+      "name": "Nickel",
+      "group": 10,
+      "period": 4,
+      "weight": 58.693,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d8,4s2",
+      "meltingPoint": "1453",
+      "boilingPoint": "2732",
+      "density": "8.9",
+      "earthCrust": "0.019",
+      "discovery": "1751",
+      "ionizationEnergy": "7.6398",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 8
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 29,
+      "color": "ffc0c0",
+      "symbol": "Cu",
+      "name": "Copper",
+      "group": 11,
+      "period": 4,
+      "weight": 63.546,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s1",
+      "meltingPoint": "1083",
+      "boilingPoint": "2567",
+      "density": "8.96",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "7.7264",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "atomicNumber": 30,
+      "color": "ffc0c0",
+      "symbol": "Zn",
+      "name": "Zinc",
+      "group": 12,
+      "period": 4,
+      "weight": 65.38,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2",
+      "meltingPoint": "420",
+      "boilingPoint": "907",
+      "density": "7.13",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "9.3942",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 31,
+      "color": "cccccc",
+      "symbol": "Ga",
+      "name": "Gallium",
+      "group": 13,
+      "period": 4,
+      "weight": 69.723,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p1",
+      "meltingPoint": "30",
+      "boilingPoint": "2403",
+      "density": "5.91",
+      "earthCrust": "------",
+      "discovery": "1875",
+      "ionizationEnergy": "5.9993",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "atomicNumber": 32,
+      "color": "cccc99",
+      "symbol": "Ge",
+      "name": "Germanium",
+      "group": 14,
+      "period": 4,
+      "weight": 72.63,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p2",
+      "meltingPoint": "937",
+      "boilingPoint": "2830",
+      "density": "5.32",
+      "earthCrust": "------",
+      "discovery": "1886",
+      "ionizationEnergy": "7.8994",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "atomicNumber": 33,
+      "color": "cccc99",
+      "symbol": "As",
+      "name": "Arsenic",
+      "group": 15,
+      "period": 4,
+      "weight": 74.921,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p3",
+      "meltingPoint": "81",
+      "boilingPoint": "613",
+      "density": "5.72",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "9.7886",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "atomicNumber": 34,
+      "color": "a1ffc3",
+      "symbol": "Se",
+      "name": "Selenium",
+      "group": 16,
+      "period": 4,
+      "weight": 78.96,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p4",
+      "meltingPoint": "217",
+      "boilingPoint": "685",
+      "density": "4.79",
+      "earthCrust": "------",
+      "discovery": "1817",
+      "ionizationEnergy": "9.7524",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "atomicNumber": 35,
+      "color": "e7ff8f",
+      "symbol": "Br",
+      "name": "Bromine",
+      "group": 17,
+      "period": 4,
+      "weight": 79.904,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p5",
+      "meltingPoint": "-7",
+      "boilingPoint": "59",
+      "density": "3.12",
+      "earthCrust": "------",
+      "discovery": "1826",
+      "ionizationEnergy": "11.8138",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "atomicNumber": 36,
+      "color": "c0ffff",
+      "symbol": "Kr",
+      "name": "Krypton",
+      "group": 18,
+      "period": 4,
+      "weight": 83.798,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6",
+      "meltingPoint": "-157",
+      "boilingPoint": "-153",
+      "density": "3.75",
+      "earthCrust": "------",
+      "discovery": "1898",
+      "ionizationEnergy": "13.9996",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "atomicNumber": 37,
+      "color": "ff6666",
+      "symbol": "Rb",
+      "name": "Rubidium",
+      "group": 1,
+      "period": 5,
+      "weight": 85.467,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,5s1",
+      "meltingPoint": "39",
+      "boilingPoint": "688",
+      "density": "1.63",
+      "earthCrust": "------",
+      "discovery": "1861",
+      "ionizationEnergy": "4.1771",
+      "electronsArray": [
+        {
+          "id": "1s",
+          "number": 2
+        },
+        {
+          "id": "2s",
+          "number": 2
+        },
+        {
+          "id": "2p",
+          "number": 6
+        },
+        {
+          "id": "3s",
+          "number": 2
+        },
+        {
+          "id": "3p",
+          "number": 6
+        },
+        {
+          "id": "3d",
+          "number": 10
+        },
+        {
+          "id": "4s",
+          "number": 2
+        },
+        {
+          "id": "4p",
+          "number": 6
+        },
+        {
+          "id": "5s",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "atomicNumber": 38,
+      "color": "ffdead",
+      "symbol": "Sr",
+      "name": "Strontium",
+      "group": 2,
+      "period": 5,
+      "weight": 87.62,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,5s2",
+      "meltingPoint": "769",
+      "boilingPoint": "1384",
+      "density": "2.54",
+      "earthCrust": "------",
+      "discovery": "1790",
+      "ionizationEnergy": "5.6949"
+    },
+    {
+      "atomicNumber": 39,
+      "color": "ffc0c0",
+      "symbol": "Y",
+      "name": "Yttrium",
+      "group": 3,
+      "period": 5,
+      "weight": 88.905,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d1,5s2",
+      "meltingPoint": "1523",
+      "boilingPoint": "3337",
+      "density": "4.47",
+      "earthCrust": "------",
+      "discovery": "1794",
+      "ionizationEnergy": "6.2173"
+    },
+    {
+      "atomicNumber": 40,
+      "color": "ffc0c0",
+      "symbol": "Zr",
+      "name": "Zirconium",
+      "group": 4,
+      "period": 5,
+      "weight": 91.224,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d2,5s2",
+      "meltingPoint": "1852",
+      "boilingPoint": "4377",
+      "density": "6.51",
+      "earthCrust": "0.025",
+      "discovery": "1789",
+      "ionizationEnergy": "6.6339"
+    },
+    {
+      "atomicNumber": 41,
+      "color": "ffc0c0",
+      "symbol": "Nb",
+      "name": "Niobium",
+      "group": 5,
+      "period": 5,
+      "weight": 92.906,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d4,5s1",
+      "meltingPoint": "2468",
+      "boilingPoint": "4927",
+      "density": "8.57",
+      "earthCrust": "------",
+      "discovery": "1801",
+      "ionizationEnergy": "6.7589"
+    },
+    {
+      "atomicNumber": 42,
+      "color": "ffc0c0",
+      "symbol": "Mo",
+      "name": "Molybdenum",
+      "group": 6,
+      "period": 5,
+      "weight": 95.96,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d5,5s1",
+      "meltingPoint": "2617",
+      "boilingPoint": "4612",
+      "density": "10.22",
+      "earthCrust": "------",
+      "discovery": "1781",
+      "ionizationEnergy": "7.0924"
+    },
+    {
+      "atomicNumber": 43,
+      "color": "ffc0c0",
+      "symbol": "Tc",
+      "name": "Technetium",
+      "group": 7,
+      "period": 5,
+      "weight": 98,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d5,5s2",
+      "meltingPoint": "2200",
+      "boilingPoint": "4877",
+      "density": "11.5",
+      "earthCrust": "------",
+      "discovery": "1937",
+      "ionizationEnergy": "7.28"
+    },
+    {
+      "atomicNumber": 44,
+      "color": "ffc0c0",
+      "symbol": "Ru",
+      "name": "Ruthenium",
+      "group": 8,
+      "period": 5,
+      "weight": 101.07,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d7,5s1",
+      "meltingPoint": "2250",
+      "boilingPoint": "3900",
+      "density": "12.37",
+      "earthCrust": "------",
+      "discovery": "1844",
+      "ionizationEnergy": "7.3605"
+    },
+    {
+      "atomicNumber": 45,
+      "color": "ffc0c0",
+      "symbol": "Rh",
+      "name": "Rhodium",
+      "group": 9,
+      "period": 5,
+      "weight": 102.905,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d8,5s1",
+      "meltingPoint": "1966",
+      "boilingPoint": "3727",
+      "density": "12.41",
+      "earthCrust": "------",
+      "discovery": "1803",
+      "ionizationEnergy": "7.4589"
+    },
+    {
+      "atomicNumber": 46,
+      "color": "ffc0c0",
+      "symbol": "Pd",
+      "name": "Palladium",
+      "group": 10,
+      "period": 5,
+      "weight": 106.42,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10",
+      "meltingPoint": "1552",
+      "boilingPoint": "2927",
+      "density": "12.02",
+      "earthCrust": "------",
+      "discovery": "1803",
+      "ionizationEnergy": "8.3369"
+    },
+    {
+      "atomicNumber": 47,
+      "color": "ffc0c0",
+      "symbol": "Ag",
+      "name": "Silver",
+      "group": 11,
+      "period": 5,
+      "weight": 107.868,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s1",
+      "meltingPoint": "962",
+      "boilingPoint": "2212",
+      "density": "10.5",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "7.5762"
+    },
+    {
+      "atomicNumber": 48,
+      "color": "ffc0c0",
+      "symbol": "Cd",
+      "name": "Cadmium",
+      "group": 12,
+      "period": 5,
+      "weight": 112.411,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2",
+      "meltingPoint": "321",
+      "boilingPoint": "765",
+      "density": "8.65",
+      "earthCrust": "------",
+      "discovery": "1817",
+      "ionizationEnergy": "8.9938"
+    },
+    {
+      "atomicNumber": 49,
+      "color": "cccccc",
+      "symbol": "In",
+      "name": "Indium",
+      "group": 13,
+      "period": 5,
+      "weight": 114.818,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p1",
+      "meltingPoint": "157",
+      "boilingPoint": "2000",
+      "density": "7.31",
+      "earthCrust": "------",
+      "discovery": "1863",
+      "ionizationEnergy": "5.7864"
+    },
+    {
+      "atomicNumber": 50,
+      "color": "cccccc",
+      "symbol": "Sn",
+      "name": "Tin",
+      "group": 14,
+      "period": 5,
+      "weight": 118.71,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p2",
+      "meltingPoint": "232",
+      "boilingPoint": "2270",
+      "density": "7.31",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "7.3439"
+    },
+    {
+      "atomicNumber": 51,
+      "color": "cccc99",
+      "symbol": "Sb",
+      "name": "Antimony",
+      "group": 15,
+      "period": 5,
+      "weight": 121.76,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p3",
+      "meltingPoint": "630",
+      "boilingPoint": "1750",
+      "density": "6.68",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "8.6084"
+    },
+    {
+      "atomicNumber": 52,
+      "color": "cccc99",
+      "symbol": "Te",
+      "name": "Tellurium",
+      "group": 16,
+      "period": 5,
+      "weight": 127.6,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p4",
+      "meltingPoint": "449",
+      "boilingPoint": "990",
+      "density": "6.24",
+      "earthCrust": "------",
+      "discovery": "1783",
+      "ionizationEnergy": "9.0096"
+    },
+    {
+      "atomicNumber": 53,
+      "color": "e7ff8f",
+      "symbol": "I",
+      "name": "Iodine",
+      "group": 17,
+      "period": 5,
+      "weight": 126.904,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p5",
+      "meltingPoint": "114",
+      "boilingPoint": "184",
+      "density": "4.93",
+      "earthCrust": "------",
+      "discovery": "1811",
+      "ionizationEnergy": "10.4513"
+    },
+    {
+      "atomicNumber": 54,
+      "color": "c0ffff",
+      "symbol": "Xe",
+      "name": "Xenon",
+      "group": 18,
+      "period": 5,
+      "weight": 131.293,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6",
+      "meltingPoint": "-112",
+      "boilingPoint": "-108",
+      "density": "5.9",
+      "earthCrust": "------",
+      "discovery": "1898",
+      "ionizationEnergy": "12.1298"
+    },
+    {
+      "atomicNumber": 55,
+      "color": "ff6666",
+      "symbol": "Cs",
+      "name": "Caesium",
+      "group": 1,
+      "period": 6,
+      "weight": 132.905,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,6s1",
+      "meltingPoint": "29",
+      "boilingPoint": "678",
+      "density": "1.87",
+      "earthCrust": "------",
+      "discovery": "1860",
+      "ionizationEnergy": "3.8939"
+    },
+    {
+      "atomicNumber": 56,
+      "color": "ffdead",
+      "symbol": "Ba",
+      "name": "Barium",
+      "group": 2,
+      "period": 6,
+      "weight": 137.327,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,6s2",
+      "meltingPoint": "725",
+      "boilingPoint": "1140",
+      "density": "3.59",
+      "earthCrust": "0.05",
+      "discovery": "1808",
+      "ionizationEnergy": "5.2117"
+    },
+    {
+      "atomicNumber": 57,
+      "color": "ffbfff",
+      "symbol": "La",
+      "name": "Lanthanum",
+      "group": 4,
+      "period": 9,
+      "weight": 138.905,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,5d1,6s2",
+      "meltingPoint": "920",
+      "boilingPoint": "3469",
+      "density": "6.15",
+      "earthCrust": "------",
+      "discovery": "1839",
+      "ionizationEnergy": "5.5769"
+    },
+    {
+      "atomicNumber": 58,
+      "color": "ffbfff",
+      "symbol": "Ce",
+      "name": "Cerium",
+      "group": 5,
+      "period": 9,
+      "weight": 140.116,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f1,5d1,6s2",
+      "meltingPoint": "795",
+      "boilingPoint": "3257",
+      "density": "6.77",
+      "earthCrust": "------",
+      "discovery": "1803",
+      "ionizationEnergy": "5.5387"
+    },
+    {
+      "atomicNumber": 59,
+      "color": "ffbfff",
+      "symbol": "Pr",
+      "name": "Praseodymium",
+      "group": 6,
+      "period": 9,
+      "weight": 140.907,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f3,6s2",
+      "meltingPoint": "935",
+      "boilingPoint": "3127",
+      "density": "6.77",
+      "earthCrust": "------",
+      "discovery": "1885",
+      "ionizationEnergy": "5.473"
+    },
+    {
+      "atomicNumber": 60,
+      "color": "ffbfff",
+      "symbol": "Nd",
+      "name": "Neodymium",
+      "group": 7,
+      "period": 9,
+      "weight": 144.242,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f4,6s2",
+      "meltingPoint": "1010",
+      "boilingPoint": "3127",
+      "density": "7.01",
+      "earthCrust": "------",
+      "discovery": "1885",
+      "ionizationEnergy": "5.525"
+    },
+    {
+      "atomicNumber": 61,
+      "color": "ffbfff",
+      "symbol": "Pm",
+      "name": "Promethium",
+      "group": 8,
+      "period": 9,
+      "weight": 145,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f5,6s2",
+      "meltingPoint": "1100",
+      "boilingPoint": "3000",
+      "density": "7.3",
+      "earthCrust": "------",
+      "discovery": "1945",
+      "ionizationEnergy": "5.582"
+    },
+    {
+      "atomicNumber": 62,
+      "color": "ffbfff",
+      "symbol": "Sm",
+      "name": "Samarium",
+      "group": 9,
+      "period": 9,
+      "weight": 150.36,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2",
+      "meltingPoint": "1072",
+      "boilingPoint": "1900",
+      "density": "7.52",
+      "earthCrust": "------",
+      "discovery": "1879",
+      "ionizationEnergy": "5.6437"
+    },
+    {
+      "atomicNumber": 63,
+      "color": "ffbfff",
+      "symbol": "Eu",
+      "name": "Europium",
+      "group": 10,
+      "period": 9,
+      "weight": 151.964,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f7,6s2",
+      "meltingPoint": "822",
+      "boilingPoint": "1597",
+      "density": "5.24",
+      "earthCrust": "------",
+      "discovery": "1901",
+      "ionizationEnergy": "5.6704"
+    },
+    {
+      "atomicNumber": 64,
+      "color": "ffbfff",
+      "symbol": "Gd",
+      "name": "Gadolinium",
+      "group": 11,
+      "period": 9,
+      "weight": 157.25,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f7,5d1,6s2",
+      "meltingPoint": "1311",
+      "boilingPoint": "3233",
+      "density": "7.9",
+      "earthCrust": "------",
+      "discovery": "1880",
+      "ionizationEnergy": "6.1501"
+    },
+    {
+      "atomicNumber": 65,
+      "color": "ffbfff",
+      "symbol": "Tb",
+      "name": "Terbium",
+      "group": 12,
+      "period": 9,
+      "weight": 158.925,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f9,6s2",
+      "meltingPoint": "1360",
+      "boilingPoint": "3041",
+      "density": "8.23",
+      "earthCrust": "------",
+      "discovery": "1843",
+      "ionizationEnergy": "5.8638"
+    },
+    {
+      "atomicNumber": 66,
+      "color": "ffbfff",
+      "symbol": "Dy",
+      "name": "Dysprosium",
+      "group": 13,
+      "period": 9,
+      "weight": 162.5,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f10,6s2",
+      "meltingPoint": "1412",
+      "boilingPoint": "2562",
+      "density": "8.55",
+      "earthCrust": "------",
+      "discovery": "1886",
+      "ionizationEnergy": "5.9389"
+    },
+    {
+      "atomicNumber": 67,
+      "color": "ffbfff",
+      "symbol": "Ho",
+      "name": "Holmium",
+      "group": 14,
+      "period": 9,
+      "weight": 164.93,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f11,6s2",
+      "meltingPoint": "1470",
+      "boilingPoint": "2720",
+      "density": "8.8",
+      "earthCrust": "------",
+      "discovery": "1867",
+      "ionizationEnergy": "6.0215"
+    },
+    {
+      "atomicNumber": 68,
+      "color": "ffbfff",
+      "symbol": "Er",
+      "name": "Erbium",
+      "group": 15,
+      "period": 9,
+      "weight": 167.259,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f12,6s2",
+      "meltingPoint": "1522",
+      "boilingPoint": "2510",
+      "density": "9.07",
+      "earthCrust": "------",
+      "discovery": "1842",
+      "ionizationEnergy": "6.1077"
+    },
+    {
+      "atomicNumber": 69,
+      "color": "ffbfff",
+      "symbol": "Tm",
+      "name": "Thulium",
+      "group": 16,
+      "period": 9,
+      "weight": 168.934,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f13,6s2",
+      "meltingPoint": "1545",
+      "boilingPoint": "1727",
+      "density": "9.32",
+      "earthCrust": "------",
+      "discovery": "1879",
+      "ionizationEnergy": "6.1843"
+    },
+    {
+      "atomicNumber": 70,
+      "color": "ffbfff",
+      "symbol": "Yb",
+      "name": "Ytterbium",
+      "group": 17,
+      "period": 9,
+      "weight": 173.054,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f14,6s2",
+      "meltingPoint": "824",
+      "boilingPoint": "1466",
+      "density": "6.9",
+      "earthCrust": "------",
+      "discovery": "1878",
+      "ionizationEnergy": "6.2542"
+    },
+    {
+      "atomicNumber": 71,
+      "color": "ffbfff",
+      "symbol": "Lu",
+      "name": "Lutetium",
+      "group": 18,
+      "period": 9,
+      "weight": 174.966,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f6,6s2,4f14,5d1,6s2",
+      "meltingPoint": "1656",
+      "boilingPoint": "3315",
+      "density": "9.84",
+      "earthCrust": "------",
+      "discovery": "1907",
+      "ionizationEnergy": "5.4259"
+    },
+    {
+      "atomicNumber": 72,
+      "color": "ffc0c0",
+      "symbol": "Hf",
+      "name": "Hafnium",
+      "group": 4,
+      "period": 6,
+      "weight": 178.49,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d2,6s2",
+      "meltingPoint": "2150",
+      "boilingPoint": "5400",
+      "density": "13.31",
+      "earthCrust": "------",
+      "discovery": "1923",
+      "ionizationEnergy": "6.8251"
+    },
+    {
+      "atomicNumber": 73,
+      "color": "ffc0c0",
+      "symbol": "Ta",
+      "name": "Tantalum",
+      "group": 5,
+      "period": 6,
+      "weight": 180.947,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d3,6s2",
+      "meltingPoint": "2996",
+      "boilingPoint": "5425",
+      "density": "16.65",
+      "earthCrust": "------",
+      "discovery": "1802",
+      "ionizationEnergy": "7.5496"
+    },
+    {
+      "atomicNumber": 74,
+      "color": "ffc0c0",
+      "symbol": "W",
+      "name": "Tungsten",
+      "group": 6,
+      "period": 6,
+      "weight": 183.84,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d4,6s2",
+      "meltingPoint": "3410",
+      "boilingPoint": "5660",
+      "density": "19.35",
+      "earthCrust": "------",
+      "discovery": "1783",
+      "ionizationEnergy": "7.864"
+    },
+    {
+      "atomicNumber": 75,
+      "color": "ffc0c0",
+      "symbol": "Re",
+      "name": "Rhenium",
+      "group": 7,
+      "period": 6,
+      "weight": 186.207,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d5,6s2",
+      "meltingPoint": "3180",
+      "boilingPoint": "5627",
+      "density": "21.04",
+      "earthCrust": "------",
+      "discovery": "1925",
+      "ionizationEnergy": "7.8335"
+    },
+    {
+      "atomicNumber": 76,
+      "color": "ffc0c0",
+      "symbol": "Os",
+      "name": "Osmium",
+      "group": 8,
+      "period": 6,
+      "weight": 190.23,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d6,6s2",
+      "meltingPoint": "3045",
+      "boilingPoint": "5027",
+      "density": "22.6",
+      "earthCrust": "------",
+      "discovery": "1803",
+      "ionizationEnergy": "8.4382"
+    },
+    {
+      "atomicNumber": 77,
+      "color": "ffc0c0",
+      "symbol": "Ir",
+      "name": "Iridium",
+      "group": 9,
+      "period": 6,
+      "weight": 192.217,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d7,6s2",
+      "meltingPoint": "2410",
+      "boilingPoint": "4527",
+      "density": "22.4",
+      "earthCrust": "------",
+      "discovery": "1803",
+      "ionizationEnergy": "8.967"
+    },
+    {
+      "atomicNumber": 78,
+      "color": "ffc0c0",
+      "symbol": "Pt",
+      "name": "Platinum",
+      "group": 10,
+      "period": 6,
+      "weight": 195.084,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d9,6s1",
+      "meltingPoint": "1772",
+      "boilingPoint": "3827",
+      "density": "21.45",
+      "earthCrust": "------",
+      "discovery": "1735",
+      "ionizationEnergy": "8.9587"
+    },
+    {
+      "atomicNumber": 79,
+      "color": "ffc0c0",
+      "symbol": "Au",
+      "name": "Gold",
+      "group": 11,
+      "period": 6,
+      "weight": 196.966,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s1",
+      "meltingPoint": "1064",
+      "boilingPoint": "2807",
+      "density": "19.32",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "9.2255"
+    },
+    {
+      "atomicNumber": 80,
+      "color": "ffc0c0",
+      "symbol": "Hg",
+      "name": "Mercury",
+      "group": 12,
+      "period": 6,
+      "weight": 200.592,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2",
+      "meltingPoint": "-39",
+      "boilingPoint": "357",
+      "density": "13.55",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "10.4375"
+    },
+    {
+      "atomicNumber": 81,
+      "color": "cccccc",
+      "symbol": "Tl",
+      "name": "Thallium",
+      "group": 13,
+      "period": 6,
+      "weight": 204.38,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p1",
+      "meltingPoint": "303",
+      "boilingPoint": "1457",
+      "density": "11.85",
+      "earthCrust": "------",
+      "discovery": "1861",
+      "ionizationEnergy": "6.1082"
+    },
+    {
+      "atomicNumber": 82,
+      "color": "cccccc",
+      "symbol": "Pb",
+      "name": "Lead",
+      "group": 14,
+      "period": 6,
+      "weight": 207.2,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p2",
+      "meltingPoint": "327",
+      "boilingPoint": "1740",
+      "density": "11.35",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "7.4167"
+    },
+    {
+      "atomicNumber": 83,
+      "color": "cccccc",
+      "symbol": "Bi",
+      "name": "Bismuth",
+      "group": 15,
+      "period": 6,
+      "weight": 208.98,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p3",
+      "meltingPoint": "271",
+      "boilingPoint": "1560",
+      "density": "9.75",
+      "earthCrust": "------",
+      "discovery": "ancient",
+      "ionizationEnergy": "7.2856"
+    },
+    {
+      "atomicNumber": 84,
+      "color": "cccc99",
+      "symbol": "Po",
+      "name": "Polonium",
+      "group": 16,
+      "period": 6,
+      "weight": 209,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p4",
+      "meltingPoint": "254",
+      "boilingPoint": "962",
+      "density": "9.3",
+      "earthCrust": "------",
+      "discovery": "1898",
+      "ionizationEnergy": "8.417"
+    },
+    {
+      "atomicNumber": 85,
+      "color": "e7ff8f",
+      "symbol": "At",
+      "name": "Astatine",
+      "group": 17,
+      "period": 6,
+      "weight": 210,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p5",
+      "meltingPoint": "302",
+      "boilingPoint": "337",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1940",
+      "ionizationEnergy": "9.3"
+    },
+    {
+      "atomicNumber": 86,
+      "color": "c0ffff",
+      "symbol": "Rn",
+      "name": "Radon",
+      "group": 18,
+      "period": 6,
+      "weight": 222,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6",
+      "meltingPoint": "-71",
+      "boilingPoint": "-62",
+      "density": "9.73",
+      "earthCrust": "------",
+      "discovery": "1900",
+      "ionizationEnergy": "10.7485"
+    },
+    {
+      "atomicNumber": 87,
+      "color": "ff6666",
+      "symbol": "Fr",
+      "name": "Francium",
+      "group": 1,
+      "period": 7,
+      "weight": 223,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,7s1",
+      "meltingPoint": "27",
+      "boilingPoint": "677",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1939",
+      "ionizationEnergy": "4.0727"
+    },
+    {
+      "atomicNumber": 88,
+      "color": "ffdead",
+      "symbol": "Ra",
+      "name": "Radium",
+      "group": 2,
+      "period": 7,
+      "weight": 226,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,7s2",
+      "meltingPoint": "700",
+      "boilingPoint": "1737",
+      "density": "5.5",
+      "earthCrust": "------",
+      "discovery": "1898",
+      "ionizationEnergy": "5.2784"
+    },
+    {
+      "atomicNumber": 89,
+      "color": "ff99cc",
+      "symbol": "Ac",
+      "name": "Actinium",
+      "group": 4,
+      "period": 10,
+      "weight": 227,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,6d1,7s2",
+      "meltingPoint": "1050",
+      "boilingPoint": "3200",
+      "density": "10.07",
+      "earthCrust": "------",
+      "discovery": "1899",
+      "ionizationEnergy": "5.17"
+    },
+    {
+      "atomicNumber": 90,
+      "color": "ff99cc",
+      "symbol": "Th",
+      "name": "Thorium",
+      "group": 5,
+      "period": 10,
+      "weight": 232.038,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,6d2,7s2",
+      "meltingPoint": "1750",
+      "boilingPoint": "4790",
+      "density": "11.72",
+      "earthCrust": "------",
+      "discovery": "1829",
+      "ionizationEnergy": "6.3067"
+    },
+    {
+      "atomicNumber": 91,
+      "color": "ff99cc",
+      "symbol": "Pa",
+      "name": "Protactinium",
+      "group": 6,
+      "period": 10,
+      "weight": 231.035,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,5f2,6d1,7s2",
+      "meltingPoint": "1568",
+      "boilingPoint": "------",
+      "density": "15.4",
+      "earthCrust": "------",
+      "discovery": "1913",
+      "ionizationEnergy": "5.89"
+    },
+    {
+      "atomicNumber": 92,
+      "color": "ff99cc",
+      "symbol": "U",
+      "name": "Uranium",
+      "group": 7,
+      "period": 10,
+      "weight": 238.028,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,5f3,6d1,7s2",
+      "meltingPoint": "1132",
+      "boilingPoint": "3818",
+      "density": "18.95",
+      "earthCrust": "------",
+      "discovery": "1789",
+      "ionizationEnergy": "6.1941"
+    },
+    {
+      "atomicNumber": 93,
+      "color": "ff99cc",
+      "symbol": "Np",
+      "name": "Neptunium",
+      "group": 8,
+      "period": 10,
+      "weight": 237,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,5f4,6d1,7s2",
+      "meltingPoint": "640",
+      "boilingPoint": "3902",
+      "density": "20.2",
+      "earthCrust": "------",
+      "discovery": "1940",
+      "ionizationEnergy": "6.2657"
+    },
+    {
+      "atomicNumber": 94,
+      "color": "ff99cc",
+      "symbol": "Pu",
+      "name": "Plutonium",
+      "group": 9,
+      "period": 10,
+      "weight": 244,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,5f6,7s2",
+      "meltingPoint": "640",
+      "boilingPoint": "3235",
+      "density": "19.84",
+      "earthCrust": "------",
+      "discovery": "1940",
+      "ionizationEnergy": "6.0262"
+    },
+    {
+      "atomicNumber": 95,
+      "color": "ff99cc",
+      "symbol": "Am",
+      "name": "Americium",
+      "group": 10,
+      "period": 10,
+      "weight": 243,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,5s2,5p6,4f14,5d10,6s2,6p6,5f6,7s2",
+      "meltingPoint": "994",
+      "boilingPoint": "2607",
+      "density": "13.67",
+      "earthCrust": "------",
+      "discovery": "1944",
+      "ionizationEnergy": "5.9738"
+    },
+    {
+      "atomicNumber": 96,
+      "color": "ff99cc",
+      "symbol": "Cm",
+      "name": "Curium",
+      "group": 11,
+      "period": 10,
+      "weight": 247,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f7,6s2,6p6,6d1,7s2",
+      "meltingPoint": "1340",
+      "boilingPoint": "------",
+      "density": "13.5",
+      "earthCrust": "------",
+      "discovery": "1944",
+      "ionizationEnergy": "5.9915"
+    },
+    {
+      "atomicNumber": 97,
+      "color": "ff99cc",
+      "symbol": "Bk",
+      "name": "Berkelium",
+      "group": 12,
+      "period": 10,
+      "weight": 247,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f9,6s2,6p6,7s2",
+      "meltingPoint": "986",
+      "boilingPoint": "------",
+      "density": "14.78",
+      "earthCrust": "------",
+      "discovery": "1949",
+      "ionizationEnergy": "6.1979"
+    },
+    {
+      "atomicNumber": 98,
+      "color": "ff99cc",
+      "symbol": "Cf",
+      "name": "Californium",
+      "group": 13,
+      "period": 10,
+      "weight": 251,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f10,6s2,6p6,7s2",
+      "meltingPoint": "900",
+      "boilingPoint": "------",
+      "density": "15.1",
+      "earthCrust": "------",
+      "discovery": "1950",
+      "ionizationEnergy": "6.2817"
+    },
+    {
+      "atomicNumber": 99,
+      "color": "ff99cc",
+      "symbol": "Es",
+      "name": "Einsteinium",
+      "group": 14,
+      "period": 10,
+      "weight": 252,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f11,6s2,6p6,7s2",
+      "meltingPoint": "860",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1952",
+      "ionizationEnergy": "6.42"
+    },
+    {
+      "atomicNumber": 100,
+      "color": "ff99cc",
+      "symbol": "Fm",
+      "name": "Fermium",
+      "group": 15,
+      "period": 10,
+      "weight": 257,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f12,6s2,6p6,7s2",
+      "meltingPoint": "1527",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1952",
+      "ionizationEnergy": "6.5"
+    },
+    {
+      "atomicNumber": 101,
+      "color": "ff99cc",
+      "symbol": "Md",
+      "name": "Mendelevium",
+      "group": 16,
+      "period": 10,
+      "weight": 258,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f13,6s2,6p6,7s2",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1955",
+      "ionizationEnergy": "6.58"
+    },
+    {
+      "atomicNumber": 102,
+      "color": "ff99cc",
+      "symbol": "No",
+      "name": "Nobelium",
+      "group": 17,
+      "period": 10,
+      "weight": 259,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,3d10,4s2,4p6,4d10,4f14,5s2,5p6,5d10,5f14,6s2,6p6,7s2",
+      "meltingPoint": "827",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1958",
+      "ionizationEnergy": "6.65"
+    },
+    {
+      "atomicNumber": 103,
+      "color": "ff99cc",
+      "symbol": "Lr",
+      "name": "Lawrencium",
+      "group": 18,
+      "period": 10,
+      "weight": 266,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d1",
+      "meltingPoint": "1627",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1961",
+      "ionizationEnergy": "4.9"
+    },
+    {
+      "atomicNumber": 104,
+      "color": "ffc0c0",
+      "symbol": "Rf",
+      "name": "Rutherfordium",
+      "group": 4,
+      "period": 7,
+      "weight": 267,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d2",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1964",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 105,
+      "color": "ffc0c0",
+      "symbol": "Db",
+      "name": "Dubnium",
+      "group": 5,
+      "period": 7,
+      "weight": 268,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d3",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 106,
+      "color": "ffc0c0",
+      "symbol": "Sg",
+      "name": "Seaborgium",
+      "group": 6,
+      "period": 7,
+      "weight": 269,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d4",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1974",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 107,
+      "color": "ffc0c0",
+      "symbol": "Bh",
+      "name": "Bohrium",
+      "group": 7,
+      "period": 7,
+      "weight": 270,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d5",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1981",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 108,
+      "color": "ffc0c0",
+      "symbol": "Hs",
+      "name": "Hassium",
+      "group": 8,
+      "period": 7,
+      "weight": 269,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d6",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1984",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 109,
+      "color": "ffc0c0",
+      "symbol": "Mt",
+      "name": "Meitnerium",
+      "group": 9,
+      "period": 7,
+      "weight": 278,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d7",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1982",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 110,
+      "color": "ffc0c0",
+      "symbol": "Ds",
+      "name": "Darmstadtium",
+      "group": 10,
+      "period": 7,
+      "weight": 281,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s1,5f14,6d9",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 111,
+      "color": "ffc0c0",
+      "symbol": "Rg",
+      "name": "Roentgenium",
+      "group": 11,
+      "period": 7,
+      "weight": 280,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s1,5f14,6d10",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 112,
+      "color": "ffc0c0",
+      "symbol": "Cn",
+      "name": "Copernicium",
+      "group": 12,
+      "period": 7,
+      "weight": 285,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 113,
+      "color": "cccccc",
+      "symbol": "Nh",
+      "name": "Nihonium",
+      "group": 13,
+      "period": 7,
+      "weight": 284,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10,7p1",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 114,
+      "color": "cccccc",
+      "symbol": "Fl",
+      "name": "Flerovium",
+      "group": 14,
+      "period": 7,
+      "weight": 289,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10,7p2",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 115,
+      "color": "cccccc",
+      "symbol": "Mc",
+      "name": "Moscovium",
+      "group": 15,
+      "period": 7,
+      "weight": 288,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10,7p3",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 116,
+      "color": "cccccc",
+      "symbol": "Lv",
+      "name": "Livermorium",
+      "group": 16,
+      "period": 7,
+      "weight": 293,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10,7p4",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 117,
+      "color": "e7ff8f",
+      "symbol": "Ts",
+      "name": "Tennessine",
+      "group": 17,
+      "period": 7,
+      "weight": 294,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10,7p5",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": 118,
+      "color": "c0ffff",
+      "symbol": "Og",
+      "name": "Oganesson",
+      "group": 18,
+      "period": 7,
+      "weight": 294,
+      "electronicConfiguration": "1s2,2s2,2p6,3s2,3p6,4s2,3d10,4p6,5s2,4d10,5p6,6s2,4f14,5d10,6p6,7s2,5f14,6d10,7p6",
+      "meltingPoint": "------",
+      "boilingPoint": "------",
+      "density": "------",
+      "earthCrust": "------",
+      "discovery": "1967",
+      "ionizationEnergy": "------"
+    },
+    {
+      "atomicNumber": " ",
+      "color": "ffbfff",
+      "symbol": " ",
+      "name": "57-71",
+      "group": 3,
+      "period": 6,
+      "weight": 294,
+      "electronicConfiguration": " "
+    },
+    {
+      "atomicNumber": " ",
+      "color": "ff99cc",
+      "symbol": " ",
+      "name": "89-103",
+      "group": 3,
+      "period": 7,
+      "weight": 294,
+      "electronicConfiguration": " "
+    }
+  ]
+}

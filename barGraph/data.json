@@ -1,0 +1,162 @@
+{
+    "images": [{
+        "img": "images/trianglered.png",
+        "name": "trianglered",
+        "id": "triangle"
+    }, {
+        "img": "images/circlered.png",
+        "name": "circlered",
+        "id": "circle"
+    },{
+        "img": "images/circlegreen.png",
+        "name": "circlegreen",
+        "id": "circle"
+      },
+     {
+        "img": "images/rectanglered.png",
+        "name": "rectanglesky",
+        "id": "rectangle"
+    }, {
+        "img": "images/starblue.png",
+        "name": "starblue",
+        "id": "star"
+    }, {
+        "img": "images/rectangleblue.png",
+        "name": "rectangleblue",
+        "id": "rectangle"
+    }, {
+        "img": "images/starorange.png",
+        "name": "starorange",
+        "id": "star"
+    }, {
+        "img": "images/trianglegreen.png",
+        "name": "trianglegreen",
+        "id": "triangle"
+    }, {
+        "img": "images/circlepink.png",
+        "name": "circlepink",
+        "id": "circle"
+    }, {
+        "img": "images/rectanglegreen.png",
+        "name": "rectanglegreen",
+        "id": "rectangle"
+    }, {
+        "img": "images/circleyellow.png",
+        "name": "circleyellow",
+        "id": "circle"
+    }, {
+        "img": "images/starbrown.png",
+        "name": "starbrown",
+        "id": "star"
+    }, {
+        "img": "images/triangleblue.png",
+        "name": "triangleblue",
+        "id": "triangle"
+    }, {
+        "img": "images/circlepurple.png",
+        "name": "circlepurple",
+        "id": "circle"
+    }, {
+        "img": "images/staryellow.png",
+        "name": "staryellow",
+        "id": "star"
+    }, {
+        "img": "images/circlegray.png",
+        "name": "circlegray",
+        "id": "circle"
+    }],
+    "images1": [{
+        "img": "images/circleblack.png"
+    }],
+    "images2": [{
+        "img": "images/rectangleblack.png"
+    }],
+    "images3": [{
+        "img": "images/starblack.png"
+    }],
+    "images4": [{
+        "img": "images/triangleblack.png"
+    }],
+    "images5": [{
+        "img": "images/circleblue.png",
+        "color": "blue",
+				"name":"circleblue"
+    },{
+        "img": "images/circleyellow.png",
+        "color": "yellow",
+				"name" : "circleyellow"
+    },{
+        "img": "images/rectanglegreen.png",
+        "color": "green",
+				"name" : "rectanglegreen"
+    },{
+        "img": "images/rectanglered.png",
+        "color": "red",
+				"name" :"rectanglered"
+    },{
+        "img": "images/rectangleblue.png",
+        "color": "blue",
+				"name" : "rectangleblue"
+    },{
+        "img": "images/rectangleyellow.png",
+        "color": "yellow",
+				"name" : "rectangleyellow"
+    },{
+        "img": "images/triangleblue.png",
+        "color": "blue",
+				 "name" : "triangleblue1"
+    },{
+        "img": "images/circlered.png",
+        "color": "red",
+				"name" : "circlered"
+    }, {
+        "img": "images/starblue.png",
+        "color": "blue",
+				"name" : "starblue"
+    }, {
+        "img": "images/triangleyellow.png",
+        "color": "yellow",
+				"name" : "triangleyellow"
+    }, {
+        "img": "images/stargreen.png",
+        "color": "green",
+				"name" : "stargreen"
+    },{
+        "img": "images/staryellow.png",
+        "color": "yellow",
+				"name" : "staryellow"
+    },{
+        "img": "images/rectangleblue1.png",
+        "color": "blue",
+				"name" : "rectangleblue1"
+    },{
+        "img": "images/starred.png",
+        "color": "red",
+				"name" : "starred"
+    },{
+        "img": "images/triangleyellow1.png",
+        "color": "yellow",
+				"name" : "triangleyellow1"
+    }, {
+        "img": "images/circlegreen.png",
+        "color": "green",
+				"name" : "circlegreen"
+    }, 	{
+          "img": "images/circlered1.png",
+          "color": "red",
+  				"name" : "circlered1"
+  			}, {
+        "img": "images/stargreen1.png",
+        "color": "green",
+				"name" : "stargreen1"
+    },
+		{
+				"img": "images/trianglegreen.png",
+				"color": "green",
+				"name" : "trianglegreen"
+			},{
+        "img": "images/trianglered.png",
+        "color": "red",
+				"name"  :"trianglered"
+    }]
+}

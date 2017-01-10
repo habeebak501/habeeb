@@ -1,0 +1,14 @@
+        <div layout="row" class="shape-place p-l-5 p-r-5 m-l-10" layout-align="center center" flex="15" id='barDragCount_{{$index+1}}' ng-bind='barDragCount_{{$index+1}}'>
+
+      </div>
+
+
+
+
+  // var colorArray = new Array('blue', 'pink', 'green', 'orange', 'red', 'lightskyblue', 'lime', 'navy', 'teal', 'violet');
+
+    // function getRandomColor(i) {
+    //     return {
+    //         color: colorArray[i]
+    //     }
+    // };

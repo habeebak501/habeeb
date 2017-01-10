@@ -1,0 +1,19 @@
+<div class="container">
+<div id="title">
+<p style="color:white;margin:5px;font-size:20px;"><i>properties of Magnets</i></p>
+</div>
+<a ui-sref="Home.Aim" ><button id="rcorners1">
+ <p class="btn3"><i>Aim</i></p></button></a>
+<a ui-sref="Home.Content"> <button id="rcorners2">
+   <p class="btn3"><i>content</i></p></button></a>
+   <div class="subclass">
+     <div id="title1">
+     </div>
+<div id="question1" ng-repeat="x in Quiz">
+    <center><h4>{{x.tag}}</h4></center>
+</div>
+<div class="quizClass">
+<div id ="question2"ng-repeat="x in Quiz">
+  <h4 id="txt">{{x.que}}</h4>
+</div>
+</div>

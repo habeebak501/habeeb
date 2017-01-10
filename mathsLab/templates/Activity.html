@@ -1,0 +1,42 @@
+<div class="container1">
+    <div id="title">
+        <p id="q2"><i>properties of Magnets</i></p>
+    </div>
+    <div id="question" ng-repeat="x in text">
+        <h4 id="qu">{{x.question1}}</h4>
+    </div>
+    <div class="subclass1">
+        <div id="sub" ng-repeat="x in img1">
+            <img class="img1" ng-src="{{x.img}}"></img>
+        </div>
+        <div id="sub1" ng-drop="true" ng-model="obj" ng-drop-success="onDropComplete1($data,$event)">
+            <div id="dropContainer" ng-drop="true" ng-repeat="obj in droppedObjects1" ng-drag-data="obj" ng-center-anchor="{{centerAnchor}}">
+                <img class="img1" ng-src="{{obj.img}}" ng-drop="true"></img>
+            </div>
+        </div>
+        <div id="sub2">
+            <img class="img2" ng-repeat="x in imgs" ng-drag="true" ng-src="{{x.img}}" ng-model="data" ng-drag-data="x" data-allow-transform="true" ng-model="count"></img>
+        </div>
+        <div id="Que" class="Que">
+            <h1 id="bar">{{element}}</h1>
+            <select name="select" ng-model="currentState" id="sel" ng-options="state as state for state in states">
+             </select>
+            <h5 id="ans">{{answer}}</h5>
+        </div>
+        <div id="que1" class="que1">
+            <p id="que1Txt"><span>&#10003;</span> Brilliant!</h4>
+        </div>
+        <div id="que2" class="que2" ng-model="model">
+            <p id="que2Txt"><span>&#10007;</span> Wrong Answer</h4>
+        </div>
+        <button id="btn" ng-click="Refresh()" disabled="true">Refresh</button>
+        <button id="btn1" disabled="true" ng-click="Animate(count,data)">Animate</button>
+        <button id="btn2" ng-init="count=0" ng-disabled="true" ng-click="Flip(data)">Flip</button>
+        <button id="btn3" disabled="true" ng-click="Question(data)">Question</button>
+    </div>
+    <div id="bottom">
+        <button id="btn4" disabled="true" ng-click="TryAgain()">TryAgain</button>
+        <button id="btn5" disabled="true" ng-click="ShowAnswer(data)">ShowAnswer</button>
+        <button id="btn6" ng-disabled="currentState === ' '" ng-click="submit(currentState,data)">Submit</button>
+    </div>
+</div>

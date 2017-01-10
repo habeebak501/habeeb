@@ -1,0 +1,221 @@
+<style>
+.disabledbutton {
+pointer-events: none !important;
+opacity: 0.4;
+}
+
+.enablebutton {
+pointer-events: auto !important;
+opacity: 1;
+}
+</style>
+
+<div layout="column" layout-fill ng-controller="PeriodicTableController as demo">
+  <!-- start sidenav -->
+  <md-sidenav md-component-id="right" class="md-sidenav-right">
+    Left Nav!
+  </md-sidenav>
+  <!-- end sidenav -->
+  <md-toolbar class="indigo md-whiteframe-2dp">
+    <div class="md-toolbar-tools">
+      <md-button class="md-icon-button" ng-click="goBack();" aria-label="arrow left">
+        <md-icon class="material-icons">arrow_back</md-icon>
+      </md-button>
+      <h3 ng-bind="pageTitle"> </h3>
+      <span flex></span>
+      <md-button class="md-icon-button" aria-label="info" ng-click="openLeftMenu()">
+        <md-icon class="material-icons">info</md-icon>
+      </md-button>
+      <md-button class="md-icon-button" ng-click="showAdvanced($event)" aria-label="help">
+        <md-icon class="material-icon">help</md-icon>
+      </md-button>
+    </div>
+  </md-toolbar>
+  <!-- <div layout="column" layout-align="center center" class="twoGraph_height" flex> -->
+  <md-content layout="row" layout-align="center center" class="main_wrap" style="height:calc(100% - 50px);white-space:nowrap; overflow:auto;" flex>
+    <div class="periodic_wrap absolute" layout="row" layout-align="start center" layout-fill>
+      <div  ng-repeat="elementName in elementAtoms | filter:name | orderBy:'number'" id="{{ elementName.symbol }}" ng-click="showDetails(elementName)"class="t-center elemBox {{ elementName.category }} enablebutton disabledbutton" style="left:{{102 * elementName.group}}px; top:{{102 * elementName.period}}px;">
+        <span  ng-bind="elementName.atomicNumber" class="absolute number white-text"></span>
+        <span class="white-text symbol m-t-10" ng-bind="elementName.symbol"></span>
+        <span class="white-text name" ng-bind="elementName.name"></span>
+    </div>
+    </div>
+
+  </md-content>
+  <md-tabs md-dynamic-height md-border-bottom class="legend_wraper">
+    <md-tab label="Legend">
+
+      <md-content class="md-padding">
+        <div layout="row" flex>
+          <div flex="20" class="red" style=" border-radius:10px;" layout="row">
+            <div layout="column" layout-align="space-around center" layout-align="center center" flex>
+              <span class="name" style="font-size:30px; height:80px;">Click Any Element</span>
+            </div>
+
+          </div>
+          <div layout="row" flex="80" class="white m-l-10" style=" border-radius:10px;" layout-padding>
+            <div layout="row" flex>
+              <div layout="column" flex="33" class="names p-10">
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text" >Metals</span>
+                  <button id="metals" ng-click="metals(elementAtoms,'metals')">metals</button>
+                  <div class="metal-box cccccc"></div>
+
+                </div>
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text">refresh</span>
+                  <!-- <button id="metals" ng-click="disableFunction(elementAtoms)">refresh</button> -->
+                  <div class="metal-box a1ffc3"></div>
+                </div>
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text">Alcali Metals</span>
+                <button id="metals" ng-click="metals(elementAtoms,'alkaliMetals')">Alcali Metals</button>
+                  <div class="metal-box ff6666"></div>
+                </div>
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text">Allcali Earth Metals</span>
+                <button id="metals" ng-click="metals(elementAtoms,'alcaliEarth')"> Allcali Earth Metals</button>
+                  <div class="metal-box ffdead"></div>
+                </div>
+              </div>
+              <div layout="column" flex="33" class="names p-10">
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text">Lathanoids</span>
+                    <button id="metals" ng-click="metals(elementAtoms,'lathanoids')"> Lathanoids</button>
+                  <div class="metal-box ffbfff"></div>
+                </div>
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text">Actinoids</span>
+                    <button id="metals" ng-click="metals(elementAtoms,'actionoids')">Actionoids</button>
+                  <div class="metal-box ff99cc"></div>
+                </div>
+                <div flex layout="row" layout-align="center center" class="m-b-5">
+                  <span layout="row" class="red-text">Metaloids</span>
+                  <button id="metals" ng-click="metals(elementAtoms,'methaliods')">methaliods</button>
+                  <div class="metal-box cccc99"></div>
+                </div>
+              </div>
+              <div layout="column" flex="33" class="names p-10">
+                <div flex layout="row" layout-align="center start" class="m-b-5">
+                  <span layout="row" class="red-text">halogens</span>
+                  <button id="metals" ng-click="metals(elementAtoms,'halogens')">halogens</button>
+                  <div class="metal-box e7ff8f"></div>
+                </div>
+                <div flex layout="row" layout-align="center start" class="m-b-5">
+                  <span layout="row" class="red-text">Noble Gas</span>
+                    <button id="metals" ng-click="metals(elementAtoms,'nobleGases')">nobleGas</button>
+                  <div class="metal-box c0ffff"></div>
+                </div>
+                <div flex layout="row" layout-align="center start" class="m-b-5">
+                  <span layout="row" class="red-text">Transitional Metals</span>
+                  <button id="metals" ng-click="metals(elementAtoms,'transitionMetals')">transitionMetals</button>
+                  <div class="metal-box ffc0c0"></div>
+                </div>
+              </div>
+              <div flex layout="row" layout-align="center start" class="m-b-5">
+                <span layout="row" class="red-text">postTransitional Metals</span>
+                <button id="metals" ng-click="metals(elementAtoms,'postTransitionMetals')">postTransitionMetals</button>
+                <div class="metal-box ffc0c0"></div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </md-content>
+    </md-tab>
+
+
+    <md-tab label="Properties">
+      <md-content class="md-padding">
+        <div layout="row" flex>
+          <div flex="20" class="red" style=" border-radius:10px;" layout="row">
+            <div layout="column" layout-align="space-around center" layout-align="center center" flex>
+              <span ng-bind="atomicNumber"></span>
+              <span class="name" style="font-size:80px; height:80px;" ng-bind="atomicSymbol"></span>
+              <div ng-bind="atomicName"></div>
+            </div>
+          </div>
+          <div layout="row" flex="80" class="m-l-10" layout-padding>
+            <div layout="row" flex>
+              <div layout="column" flex="33" class="names p-10">
+                <div flex layout="row" layout-align="center center">
+                  <span layout="row" class="red-text">Name</span>
+                  <div class="box">
+                    <h1 ng-bind="atomicName"></h1></div>
+                </div>
+                <div flex layout="row" layout-align="center center">
+                  <span layout="row" class="red-text">B.P</span>
+                  <div class="box">
+                    <h1>{{atomicBp}}°C</h1></div>
+                </div>
+                <div flex layout="row" layout-align="center center">
+                  <span layout="row" class="red-text">M.P</span>
+                  <div class="box">
+                    <h1>{{atomicMp}}°C</h1></div>
+                </div>
+              </div>
+              <div layout="column" flex="33" class="names p-10">
+                <div flex layout="row" layout-align="center center">
+                  <span layout="row" class="red-text">Year of Discovery</span>
+                  <div class="box">
+                    <h1 ng-bind="atomicDiscovery"></h1></div>
+                </div>
+                <div flex layout="row" layout-align="center center">
+                  <span layout="row" class="red-text">Atomic Weight</span>
+                  <div class="box">
+                    <h1>{{atomicWeight}}u</h1></div>
+                </div>
+                <div flex layout="row" layout-align="center center">
+                  <span layout="row" class="red-text">Ionisation Energy</span>
+                  <div class="box">
+                    <h1>{{atomicIonizationEnergy}}eV</h1></div>
+                </div>
+              </div>
+              <div layout="column" flex="33" class="names p-10">
+                <div flex layout="row" layout-align="center start">
+                  <span layout="row" class="red-text">Density</span>
+                  <div class="box">
+                    <h1 ng-bind="atomicDensity"></h1></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </md-content>
+    </md-tab>
+
+    <md-tab label="Electron Configuration">
+      <md-content class="md-padding">
+        <div layout="row" flex>
+          <div flex="20" class="red" layout="row">
+            <div layout="column" layout-align="space-around center" layout-align="center center" flex>
+              <span ng-bind="atomicNumber"></span>
+              <span class="name" style="font-size:80px; height:80px;" ng-bind="atomicSymbol"></span>
+              <div ng-bind="atomicName"></div>
+            </div>
+          </div>
+          <div layout="row" flex="80" class="blue m-l-10" style=" border-radius:10px;" layout-padding>
+            <div layout="row" flex>
+              <div layout="column" flex class="names p-10">
+                <div flex layout="row" layout-align="center center">
+                  <div class="box">
+                    <h1 ng-bind="atomicElectronConfiguration"></h1></div>
+                </div>
+              </div>
+              <div flex layout="row" layout-align="center center">
+                <span layout="row" class="red-text"></span>
+                <button ng-click="metalFunction()">overAll</button>
+                <div class="box" id="123">
+                   <!-- <h4>Click me to toggle: <input type="checkbox" ng-model="checked"></h4> -->
+                  <!-- <h1 ng-bind="x.id"></h1> -->
+                  <br/>
+                  <div class="box" id="456">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </md-content>
+    </md-tab>
+  </md-tabs>
+  </div>
