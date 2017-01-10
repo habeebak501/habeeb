@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+// Mixins
+// @import "components/prefixer";
+@import "components/mixins";
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+
+/* margin and padding */
+@include generate-pad-mar(100,bottom,b,1);
+@include generate-pad-mar(100,top,t,1);
+@include generate-pad-mar(100,right,r,1);
+@include generate-pad-mar(100,left,l,1);
+@include generate-pad-mar-all(100,1);
+$gray: #eee;
+/* main page css */
+*{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+h1{
+  font-size:2rem;
+}
+h2{
+  font-size:1.5rem;
+}
+p{
+  font-size:1rem;
+}
+.t-center{
+  text-align: center;
+}
+.bg-transparent{
+  background: transparent;
+}
+.main_height{
+  height:calc(100% - 38px);
+}
+.main-height{
+  height:calc(100% - 105.86px);
+}
+.footer{
+  font-size: 100%;
+}
+.b-radius-none{
+  border-radius: 0;
+}
+.width100{
+  width: 100%;
+}
+.minw-60{
+  min-width:60%;
+}
+.box-s-n{
+  box-shadow: none;
+}
+.unitcon-wrap{
+  & md-pagination-wrapper, md-tabs-canvas {
+    height: 72px;
+  }
+}
+
+.main_wrap{
+  & .cards_wrap{
+    width: 100%;
+    & md-card{
+      width:230px;
+      min-width:230px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+
+      & .tile {
+        background-color: color('blue-grey','lighten-5');
+        border-radius: 6px;
+        padding: 14px;
+        position: relative;
+        text-align: center;
+      & .tile-image.big-illustration {
+        height: 111px;
+        margin-top: 20px;
+        width: 112px;
+    }
+    }
+    }
+  }
+  & md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+    background: #ffa000;
+  }
+
+}
+.login-dialog {
+  max-width: 90%;
+  width: 500px;
+}
+/* unit wrap css starts */
+.unit_wrap{
+  width:100%;
+  & md-input-container .md-errors-spacer {
+    display: none !important;
+  }
+  & .md_input{
+    font-size:120%;
+    &:focus{
+      border-bottom:solid 1px color("orange","lighten-1") !important;
+      box-shadow:0 1px 0 0 color("orange","lighten-1") !important;
+    }
+  }
+  & .md_options{
+    font-size:120%;
+  }
+
+}
+
+// md-card {
+//   background-color: $gray;
+//   box-shadow: none;
+//   h2:first-of-type {
+//     margin-top: 0;
+//   }
+// }
+// md-toolbar {
+//   .md-button.md-default-theme {
+//     border-radius: 99%;
+//   }
+// }
+// h2 {
+//   font-weight: 400;
+// }
+// .md-toolbar-tools-bottom {
+//   font-size: small;
+//   & :last-child {
+//     opacity: 0.8;
+//   }
+// }
+// md-toolbar:not(.md-hue-1),
+// .md-fab {
+//   fill: color('shades','white');
+// }
+// md-sidenav {
+//   fill: #737373;
+//   ng-md-icon {
+//     position: relative;
+//     top: 5px;
+//   }
+// }
+.user-avatar {
+  border-radius: 99%;
+}

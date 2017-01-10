@@ -1,0 +1,97 @@
+<html lang="en" ng-app="nextTools">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>NextTools</title>
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="assets/js/angular-material/angular-material.min.css">
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="assets/sass/custom.css">
+    <!-- material font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body layout="row" ng-controller="NextCtrl as demo" ng-cloak>
+    <div layout="column" layout-fill>
+        <header>
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <md-button class="md-icon-button" aria-label="arrow left">
+                        <md-icon class="material-icons">keyboard_arrow_left</md-icon>
+                    </md-button>
+                    <h2> <span>{{page2DGraph}}</span> </h2>
+                    <span flex></span>
+                    <md-button class="md-icon-button" aria-label="info">
+                        <md-icon class="material-icons">info</md-icon>
+                    </md-button>
+                    <md-button class="md-icon-button" ng-click="showAdvanced($event)" aria-label="help">
+                        <md-icon class="material-icon">help</md-icon>
+                    </md-button>
+                </div>
+            </md-toolbar>
+        </header>
+
+        <div layout="column" layout-align="center center" flex>
+          <!-- start floating button -->
+            <md-fab-speed-dial class="md-fab-bottom-right" md-open="demo.isOpen" md-direction="{{demo.selectedDirection}}" ng-class="demo.selectedMode">
+                <md-fab-trigger>
+                    <md-button class="md-fab md-mini pink lighten-1" aria-label="menu">
+                        <md-icon class="material-icons">&#xE5D2;</md-icon>
+                    </md-button>
+                </md-fab-trigger>
+
+                <md-fab-actions>
+                    <md-button aria-label="Folder" class="md-fab md-raised md-mini white" ng-click="showAdvanced($event)">
+                        <md-icon class="material-icons light-blue-text">&#xE2C7;</md-icon>
+                    </md-button>
+                    <md-button aria-label="Save" class="md-fab md-raised md-mini white">
+                        <md-icon class="material-icons light-blue-text">&#xE161;</md-icon>
+                    </md-button>
+                    <a href="onboarding.html">
+                    <md-button aria-label="Info" class="md-fab md-raised md-mini white">
+                      <md-icon class="material-icons light-blue-text">&#xE88E;</md-icon>
+                    </md-button>
+                    </a>
+                    <md-button aria-label="Reload" class="md-fab md-raised md-mini white">
+                        <md-icon class="material-icons light-blue-text">&#xE5D5;</md-icon>
+                    </md-button>
+
+                    <md-button aria-label="keyboard" class="md-fab md-raised md-mini white">
+                        <md-icon class="material-icons light-blue-text">keyboard_hide</md-icon>
+                    </md-button>
+                </md-fab-actions>
+            </md-fab-speed-dial>
+            <!-- end floating button -->
+
+            content goes here
+
+        </div>
+    </div>
+    <!-- End ontent area -->
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="assets/js/angular/angular.min.js"></script>
+    <script src="assets/js/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/js/angular-aria/angular-aria.min.js"></script>
+    <script src="assets/js/angular-messages/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="assets/js/angular-material/angular-material.min.js"></script>
+    <script src="assets/js/app.module.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+
+</body>
+
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->

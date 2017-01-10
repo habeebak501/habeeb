@@ -1,0 +1,126 @@
+{
+"shape":[{
+    "id": 1,
+    "name": "square",
+    "color": "green"
+}, {
+    "id": 2,
+    "name": "circle",
+    "color": "blue"
+}, {
+    "id": 3,
+    "name": "triangle-up",
+    "color": "green"
+}, {
+    "id": 4,
+    "name": "heart",
+    "color": "pink"
+}, {
+    "id": 5,
+    "name": "star-five",
+    "color": "blue"
+}, {
+    "id": 6,
+    "name": "diamond",
+    "color": "orange"
+}, {
+    "id": 7,
+    "name": "moon",
+    "color": "lightgreen"
+}, {
+    "id": 8,
+    "name": "oval",
+    "color": "lightgreen"
+}, {
+    "id": 9,
+    "name": "cone",
+    "color": "skyblue"
+}, {
+    "id": 10,
+    "name": "pacman",
+    "color": "orange"
+}, {
+    "id": 11,
+    "name": "hexagon",
+    "color": "red"
+}, {
+    "id": 12,
+    "name": "pentagon",
+    "color": "gray"
+}, {
+    "id": 13,
+    "name": "infinity",
+    "color": "black"
+}, {
+    "id": 14,
+    "name": "flag",
+    "color": "pink"
+}, {
+    "id": 15,
+    "name": "rectangle",
+    "color": "black"
+  },{
+    "id": 16,
+    "name": "parallelogram",
+    "color": "gold"
+  },{
+    "id": 17,
+    "name": "talkbubble",
+    "color": "orange"
+  },{
+    "id": 18,
+    "name": "badge-ribbon",
+    "color": "gold"
+  },{
+    "id": 19,
+    "name": "cross",
+    "color": "red"
+  },{
+    "id":20,
+    "name": "burst-8",
+   "color": "skyblue"
+}],
+"color" : [{
+    "id": 1,
+    "color": "blue",
+    "name": "square1"
+
+}, {
+    "id": 2,
+    "color": "red",
+    "name": "square2"
+}, {
+    "id": 3,
+    "color": "green",
+    "name": "square3"
+}, {
+    "id": 4,
+    "color": "skyblue",
+    "name": "square4"
+}, {
+    "id": 5,
+    "color": "orange",
+    "name": "square5"
+}, {
+    "id": 6,
+    "color": "black",
+    "name": "square6"
+}, {
+    "id": 7,
+    "color": "lightgreen",
+    "name": "square7"
+
+}, {
+    "id": 8,
+    "color": "pink",
+    "name": "square8"
+}, {
+    "id": 9,
+    "color": "gray",
+    "name": "square9"
+}, {
+    "id": 10,
+    "color": "gold",
+    "name": "square10"
+}]
+}

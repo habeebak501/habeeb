@@ -1,0 +1,73 @@
+<md-content class="main_wrap main-height" layout-align="center center" flex layout-fill ng-controller="ShapeSorterController as demo" id="mainWindow">
+  <div layout-fill layout="column">
+  <!-- start content area -->
+  <div layout="column" class="relative" layout-fill role="main" ng-cloak>
+    <md-toolbar class="indigo md-whiteframe-2dp">
+      <div class="md-toolbar-tools" ng-click="reset()" id="header">
+        <md-button class="md-icon-button" ng-click="goHome()" aria-label="back">
+          <md-icon class="material-icons">arrow_back</md-icon>
+        </md-button>
+        <h3 ng-bind="pageTitle"> </h3>
+        <span flex></span>
+        <!-- <md-button class="md-icon-button" ng-click="onintroPage()" ng-click="infoDialog()" aria-label="info">
+          <md-icon class="material-icons">info</md-icon>
+        </md-button> -->
+        <md-button class="md-icon-button" ng-click="showInfo($event, data)" aria-label="help">
+          <md-icon class="material-icons">help</md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <!-- end toolbar -->
+
+    <!-- start floating button -->
+    <md-fab-speed-dial class="md-fab-bottom-right shape-titles" md-open="demo.isOpen" md-direction="{{demo.selectedDirection}}" ng-class="demo.selectedMode">
+      <md-fab-trigger>
+        <md-button class="md-fab green" aria-label="add">
+          <md-icon class="material-icons white-text">add</md-icon>
+        </md-button>
+      </md-fab-trigger>
+      <md-fab-actions>
+        <md-button aria-label="Save" class="md-fab md-raised md-mini white" ng-click="changeShape('2')">
+          <md-icon class="material-icons indigo-text">color_lens</md-icon>
+          <span class="white-text indigo">Colors</span>
+        </md-button>
+        <md-button aria-label="Info" class="md-fab md-raised md-mini white" ng-click="changeShape('1')">
+          <md-icon class="material-icons indigo-text">widgets</md-icon>
+          <span class="white-text indigo">Shapes</span>
+        </md-button>
+        <md-button aria-label="Reload" class="md-fab md-raised md-mini white" ng-click="Reset()">
+          <md-icon class="material-icons indigo-text">refresh</md-icon>
+          <span class="white-text indigo">Reset</span>
+        </md-button>
+      </md-fab-actions>
+    </md-fab-speed-dial>
+    <!-- end floating button -->
+
+<!--dragabbleArea -->
+  <div layout="column" class="shape_sorter" style="" flex layout-padding>
+    <div layout="column" flex="85" layout-align="center center" flex>
+      <div layout="colunm" layout-align="center center" class="width100 m-b-15 " ng-repeat = "x in userShape">
+        <div class="shape-item t-right" flex="10" flex-gt-sm="5">
+          <i ng-style="x.color" class="material-icons">{{x.name}}</i>
+        </div>
+        <div flex="5"></div>
+        <!--dragabbleArea -->
+        <div layout="row" class="shape-place p-l-5 p-r-5" flex="70" layout-align="start center" id= {{x.id}} ng-drop="true" ng-drop-success="onDropComplete(x.id,x.color,$data,$event)">
+            <i ng-repeat="obj in droppedObjects track by $index" ng-style="x.color" ng-if="x.color==obj.color" class="material-icons">{{x.name}}</i>
+        </div>
+        <div layout="row" class="shape-place p-l-5 p-r-5 m-l-10" layout-align="center center" flex="15">
+          <strong ng-bind='barDragCount{{$index+1}}' class="md-display-1"></strong>
+      </div>
+    </div>
+  </div>
+  <footer layout="row" flex="15" layout-align="start center" class="bottom-shape bg-transparent width100 md-padding">
+    <h2 class="shape-item m-0 absolute">{{totalShapeCount}}/20</h2>
+  <!--20 randomShapes display single shape at a time -->
+  <div class="b-none" flex>
+    <div ng-repeat="x in dragShape track by $index" class="shapes-place t-center">
+        <i ng-if="drag_shape==$index" class="material-icons c-pointer" ng-style="x.color" ng-drag="true" data-allow-transform="true" ng-drag-data="x">{{x.name}}</i>
+    </div>
+  </div>
+</footer>
+  </div>
+</md-content>

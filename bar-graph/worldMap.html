@@ -1,0 +1,87 @@
+<html lang="en" ng-app="nextTools">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>NextTools</title>
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="assets/js/angular-material/angular-material.min.css">
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="assets/sass/custom.css">
+    <!-- material font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body layout="row" ng-controller="NextCtrl as demo" ng-cloak>
+    <div layout="column" layout-fill>
+        <header>
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <md-button class="md-icon-button" aria-label="arrow left">
+                        <md-icon class="material-icons">keyboard_arrow_left</md-icon>
+                    </md-button>
+                    <h2> <span>{{page3Title}}</span> </h2>
+                    <span flex></span>
+                    <md-button class="md-icon-button" aria-label="info">
+                        <md-icon class="material-icons">info</md-icon>
+                    </md-button>
+                    <md-button class="md-icon-button" ng-click="showAdvanced($event)" aria-label="help">
+                        <md-icon class="material-icon">help</md-icon>
+                    </md-button>
+                </div>
+            </md-toolbar>
+        </header>
+
+        <div layout="column" layout-align="center center" flex>
+
+            content goes here
+
+        </div>
+
+        <footer layout="column" layout-align="center center">
+            <md-card class="white minw-60" layout="row">
+
+              <div class="md-toolbar-tools white lighten-4 m-0">
+                  <span>COUNTRY:-</span>
+                  <div class="m-l-10 blue-grey-text">
+                    India
+                  </div>
+              </div>
+
+                <div class="md-toolbar-tools white lighten-4 m-0">
+                    <span>TIME:-</span>
+                    <div class="m-l-10 blue-grey-text">
+                      18:17
+                    </div>
+                </div>
+            </md-card>
+        </footer>
+
+    </div>
+    <!-- End ontent area -->
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="assets/js/angular/angular.min.js"></script>
+    <script src="assets/js/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/js/angular-aria/angular-aria.min.js"></script>
+    <script src="assets/js/angular-messages/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="assets/js/angular-material/angular-material.min.js"></script>
+    <script src="assets/js/app.module.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+
+</body>
+
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->

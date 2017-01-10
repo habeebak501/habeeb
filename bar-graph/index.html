@@ -1,0 +1,213 @@
+<html lang="en" ng-app="nextTools">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>NextTools</title>
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="assets/js/angular-material/angular-material.min.css">
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="assets/sass/custom.css">
+    <!-- material font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body layout="row" ng-controller="NextCtrl as demo" ng-cloak>
+
+  <div class="width100">
+    <header>
+
+      <!-- start sidenav -->
+      <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia()">
+        <md-toolbar class="md-tall md-hue-2">
+            <span flex></span>
+            <div layout="column" class="md-toolbar-tools-bottom inset"> </div>
+        </md-toolbar>
+        <md-list>
+            <md-item ng-repeat="item in menu">
+                <a>
+                  <md-item-content md-ink-ripple layout="row" layout-align="start center">
+                        <div class="inset">
+                            <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+                        </div>
+                        <div class="inset">{{item.title}}</div>
+                    </md-item-content>
+                </a>
+            </md-item>
+            <md-divider></md-divider>
+            <md-subheader>Next Tools</md-subheader>
+            <md-item ng-repeat="item in admin">
+                <a>
+                    <md-item-content md-ink-ripple layout="row" layout-align="start center">
+                        <div class="inset">
+                            <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+                        </div>
+                        <div class="inset">{{item.title}}
+                        </div>
+                    </md-item-content>
+                </a>
+            </md-item>
+        </md-list>
+      </md-sidenav>
+      <!-- End sidenav -->
+
+    </header>
+
+
+  <!-- start content area -->
+  <div layout="column" class="relative" layout-fill role="main">
+    <!-- start floating button -->
+      <md-fab-speed-dial class="md-fab-bottom-right" md-open="demo.isOpen" md-direction="{{demo.selectedDirection}}" ng-class="demo.selectedMode">
+          <md-fab-trigger>
+              <md-button class="md-fab light-green darken-1" aria-label="menu">
+                  <md-icon class="material-icons">&#xE5D2;</md-icon>
+              </md-button>
+          </md-fab-trigger>
+
+          <md-fab-actions>
+              <md-button aria-label="Folder" class="md-fab md-raised md-mini  amber darken-1" ng-click="showAdvanced($event)">
+                  <md-icon class="material-icons white-text">&#xE2C7;</md-icon>
+              </md-button>
+              <md-button aria-label="Save" class="md-fab md-raised md-mini amber darken-1">
+                  <md-icon class="material-icons white-text">&#xE161;</md-icon>
+              </md-button>
+                <a href="onboarding.html">
+              <md-button aria-label="Info" class="md-fab md-raised md-mini amber darken-1">
+                <md-icon class="material-icons white-text">&#xE88E;</md-icon>
+              </md-button>
+              </a>
+              <md-button aria-label="Reload" class="md-fab md-raised md-mini amber darken-1">
+                  <md-icon class="material-icons white-text">&#xE5D5;</md-icon>
+              </md-button>
+          </md-fab-actions>
+      </md-fab-speed-dial>
+      <!-- end floating button -->
+
+      <!-- start toolbar -->
+      <md-toolbar>
+          <div class="md-toolbar-tools">
+              <md-button class="md-icon-button" ng-click="toggleSidenav('left')" aria-label="Menu">
+                  <md-icon class="material-icons">&#xE5D2;</md-icon>
+              </md-button>
+              <h3> {{pageTitle}} </h3>
+              <span flex></span>
+              <md-button class="md-icon-button" ng-click="showAdvanced($event)" aria-label="info">
+                  <md-icon class="material-icons">&#xE887;</md-icon>
+              </md-button>
+          </div>
+          <md-tabs md-stretch-tabs class="md-primary" md-selected="data.selectedIndex">
+              <md-tab id="tab1" aria-controls="tab1-content">
+                  MATHS
+              </md-tab>
+              <md-tab id="tab2" aria-controls="tab2-content">
+                  CHEMISTRY
+              </md-tab>
+              <md-tab id="tab3" aria-controls="tab3-content">
+                  SOCIAL
+              </md-tab>
+              <md-tab id="tab4" aria-controls="tab4-content">
+                  PRIMARY
+              </md-tab>
+          </md-tabs>
+      </md-toolbar>
+      <!-- end toolbar -->
+
+      <md-content class="main_wrap main-height" flex>
+          <ui-view class="" layout="column" layout-align="center center" layout-fill layout-padding style="width:90%;margin:auto;">
+              <ng-switch on="data.selectedIndex" class="tabpanel-container" flex-gt-sm="90" flex-gt-md="60" layout="row" layout-align="center center">
+                  <md-card layout="row" layout-align="center center" class="bg-transparent width100 box-s-n">
+
+                      <!-- start maths tab  -->
+                      <div role="tabpanel" id="tab1-content" aria-labelledby="tab1" ng-switch-when="0" layout="row" layout-align="start start" class="scroll" style="overflow: auto; white-space: nowrap;">
+                          <md-card class="bg-transparent box-s-n">
+                              <div class="cards_wrap" layout="row" layout-align="center center">
+                                  <md-card class="span3" ng-repeat="mathslist in mathslists">
+                                      <div class="tile">
+                                          <img ng-src="{{mathslist.img}}" alt="" class="tile-image big-illustration">
+                                          <h2 class="tile-title truncate m-t-10 m-b-10">{{mathslist.title}}</h2>
+                                          <md-button class="md-primary md-raised" ng-click="showAdvanced($event)">Info</md-button>
+                                      </div>
+                                  </md-card>
+                              </div>
+                          </md-card>
+                      </div>
+                      <!-- End maths tab  -->
+
+                      <!-- start chemistry tab  -->
+                      <div role="tabpanel" id="tab2-content" aria-labelledby="tab2" ng-switch-when="1" layout="row" layout-align="start start" style="overflow:auto;white-space:nowrap;width:100%;">
+                          <md-card class="bg-transparent box-s-n">
+                              <div class="cards_wrap" layout="row" layout-align="center center">
+                                  <md-card class="span3" ng-repeat="chemistry in chemistrys">
+                                      <div class="tile">
+                                          <img ng-src="{{chemistry.img}}" alt="" class="tile-image big-illustration">
+                                          <h2 class="tile-title truncate m-t-10 m-b-10">{{chemistry.title}}</h2>
+                                          <md-button class="md-primary md-raised" ng-click="showAdvanced($event)">Info</md-button>
+                                      </div>
+                                  </md-card>
+                              </div>
+                          </md-card>
+                      </div>
+                      <!-- End chemistry tab  -->
+
+                      <!-- start social tab  -->
+                      <div role="tabpanel" id="tab3-content" aria-labelledby="tab3" ng-switch-when="2" layout="row" layout-align="start start" style="overflow:auto;white-space:nowrap;width:100%;">
+                          <md-card class="bg-transparent box-s-n">
+                              <div class="cards_wrap" layout="row" layout-align="center center">
+                                  <md-card class="span3" ng-repeat="social in socials">
+                                      <div class="tile">
+                                          <img ng-src="{{social.img}}" alt="" class="tile-image big-illustration">
+                                          <h2 class="tile-title truncate m-t-10 m-b-10">{{social.title}}</h2>
+                                          <md-button class="md-primary md-raised" ng-click="showAdvanced($event)">Info</md-button>
+                                      </div>
+                                  </md-card>
+                              </div>
+                          </md-card>
+                      </div>
+                      <!-- End social tab  -->
+
+                      <!-- start Primary tab  -->
+                      <div role="tabpanel" id="tab4-content" aria-labelledby="tab4" ng-switch-when="3" layout="row" layout-align="start start" style="overflow:auto;white-space:nowrap;width:100%;">
+                          <md-card class="bg-transparent box-s-n">
+                              <div class="cards_wrap" layout="row" layout-align="center center">
+                                  <md-card class="span3" ng-repeat="Primary in Primarys">
+                                      <div class="tile">
+                                          <img ng-src="{{Primary.img}}" alt="" class="tile-image big-illustration">
+                                          <h2 class="tile-title truncate m-t-10 m-b-10">{{Primary.title}}</h2>
+                                          <md-button class="md-primary md-raised" ng-click="showAdvanced($event)">Info</md-button>
+                                      </div>
+                                  </md-card>
+                              </div>
+                          </md-card>
+                      </div>
+                      <!-- End Primary tab  -->
+                  </md-card>
+              </ng-switch>
+              <div class="inset" hide-sm></div>
+          </ui-view>
+      </md-content>
+  </div>
+  </div>
+  <!-- End ontent area -->
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="assets/js/angular/angular.min.js"></script>
+    <script src="assets/js/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/js/angular-aria/angular-aria.min.js"></script>
+    <script src="assets/js/angular-messages/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="assets/js/angular-material/angular-material.min.js"></script>
+    <script src="assets/js/app.module.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+
+</body>
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->

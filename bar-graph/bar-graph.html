@@ -1,0 +1,117 @@
+<html lang="en" ng-app="nextTools">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>NextTools</title>
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="assets/js/angular-material/angular-material.min.css">
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="assets/sass/custom.css">
+    <!-- Bar Graph style sheet -->
+    <link rel="stylesheet" href="assets/sass/bar-graph.css">
+    <!-- material font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body layout="row" ng-controller="NextCtrl as demo" ng-cloak>
+  <div class="width100">
+  <!-- start content area -->
+  <div layout="column" class="relative" layout-fill role="main">
+    <!-- start floating button -->
+          <md-fab-speed-dial class="md-fab-bottom-right shape-titles" md-open="demo.isOpen" md-direction="{{demo.selectedDirection}}" ng-class="demo.selectedMode">
+              <md-fab-trigger>
+                  <md-button class="md-fab light-green darken-1" aria-label="menu">
+                      <md-icon class="material-icons">&#xE5D2;</md-icon>
+                  </md-button>
+              </md-fab-trigger>
+              <md-fab-actions>
+                  <md-button aria-label="Save" class="md-fab md-raised md-mini amber darken-1" ng-click="changeShape('2')">
+                      <md-icon class="material-icons white-text">&#xE88E;</md-icon>
+                      <span>Colors</span>
+                  </md-button>
+                  <md-button aria-label="Info" class="md-fab md-raised md-mini amber darken-1" ng-click="changeShape('1')">
+                    <md-icon class="material-icons white-text">&#xE88E;</md-icon>
+                    <span>Shapes</span>
+                  </md-button>
+                  <md-button aria-label="Reload" class="md-fab md-raised md-mini amber darken-1" ng-click="Reset()">
+                      <md-icon class="material-icons white-text">&#xE5D5;</md-icon>
+                      <span>Reset</span>
+                  </md-button>
+              </md-fab-actions>
+          </md-fab-speed-dial>
+          <!-- end floating button -->
+
+      <!-- start toolbar -->
+      <md-toolbar>
+          <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="arrow left">
+              <md-icon class="material-icons">keyboard_arrow_left</md-icon>
+            </md-button>
+            <h3> <span>Bar Graphs</span> </h3>
+            <span flex> </span>
+            <md-button class="md-icon-button" ng-click="showAdvanced($event)" aria-label="info">
+            <md-icon class="material-icons">&#xE887;</md-icon>
+            </md-button>
+          </div>
+      </md-toolbar>
+      <!-- end toolbar -->
+
+      <md-content class="main_wrap main-height" flex layout-fill>
+          <div class="shape-main" layout="column" layout-align="center center" layout-fill layout-padding>
+
+            <!-- 4 rabdomShapes & randomColors -->
+            <div layout="row" class="shape-blocks" layout-align="center center" ng-repeat = "x in userShape">
+              <div class="shape-item" flex>
+                <div class="shapes">
+                      <div class= {{x.name}}></div>
+                </div>
+              </div>
+              <!--dragabbleArea -->
+              <div id = {{x.id}} class="shape-place" flex="80" ng-drop="true" ng-drop-success="onDropComplete(x.id,x.color,$data,$event)">
+                 <div ng-repeat="obj in droppedObjects1 track by $index"  class="shapes">
+                   <div ng-if = "x.color== obj.color" class={{obj.name}}></div>
+                   <!-- <div ng-if = "x.id== obj.id" class={{obj.name}} ng-model="showShape==2"></div> -->
+                 </div>
+                </div>
+              </div>
+            </div>
+      </md-content>
+      <div class="bottom-shape" layout="row">
+          <div class="shape-item" flex="20">
+             <h2>{{totalShapeCount}}/20</h2>
+          </div>
+          <!--20 randomShapes display single shape at a time -->
+          <div class="shape-place md-padding" flex="80">
+            <div class="shapes" ng-repeat="x in dragShape track by $index"  ng-drag="true" data-allow-transform="true" ng-drag-data="x">
+              <div ng-if ="drag_shape==$index">
+              <div class= {{x.name}}></div>
+            </div>
+              </div>
+           </div>
+          </div>
+  </div>
+</div>
+  <!-- End ontent area -->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="assets/js/angular/angular.min.js"></script>
+    <script src="assets/js/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/js/angular-aria/angular-aria.min.js"></script>
+    <script src="assets/js/angular-messages/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="assets/js/angular-material/angular-material.min.js"></script>
+    <script src="assets/js/app.module.js"></script>
+    <script src="assets/js/ngDraggable.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/js/materialize.min.js"></script>
+
+</body>
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->
